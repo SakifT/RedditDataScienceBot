@@ -208,8 +208,18 @@ public class DataBot {
 		db.getPosts();
 		db.getNumberOfComments();
 
-		System.out.println("Welcome to the DataBot.\n");
+		System.out.println("Welcome to the DataBot. This bot is based on reddit posts from the subreddit /r/TheDonald.\n");
 
+		System.out.println("After entering a word, the bot will display: \n");
+		
+		System.out.println("1. How many times the world was used.\n");
+		System.out.println("2.Which user used that word the most.  \n");
+		System.out.println("3.The posts that included the word. \n");
+
+
+
+
+		
 		String catchWord = db.enterWord();
 
 		db.getTotalCountOfCatchwords(catchWord);

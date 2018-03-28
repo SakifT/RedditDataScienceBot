@@ -212,7 +212,7 @@ public class DataBot {
 
 		System.out.println("After entering a word, the bot will display: \n");
 		
-		System.out.println("1. How many times the world was used.\n");
+		System.out.println("1.How many times the word was used.\n");
 		System.out.println("2.Which user used that word the most.  \n");
 		System.out.println("3.The posts that included the word. \n");
 
